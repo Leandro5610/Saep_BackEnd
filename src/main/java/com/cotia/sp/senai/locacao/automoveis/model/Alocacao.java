@@ -19,6 +19,7 @@ public class Alocacao {
 	@OneToOne
 	@JoinColumn(name = "automovel")
 	private Automoveis automoveis;
+	private int quantidade;
 	@ManyToOne
 	@JoinColumn(name = "concessionaria")
 	private Concessionarias concessionaria;
